@@ -1,0 +1,26 @@
+version: '2'
+services:
+  kafka:
+    image: spotify/kafka:latest
+    container_name: kafka
+    hostname: kafka
+    ports:
+      - "9092:9092"
+      - "2181:2181"
+    environment:
+      ADVERTISED_HOST: kafka
+      ADVERTISED_PORT: 9092
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+  pim-importer:
+    image: pim-importer:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pim-importer
+    links:
+      - kafka:kafka
+    ports:
+      - "8080:8080"
+    depends_on:
+      - kafka
