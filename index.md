@@ -5,12 +5,9 @@ You can use the [editor on GitHub](https://github.com/Mahm0ud/PIM/edit/gh-pages/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
-![Image](https://raw.githubusercontent.com/Mahm0ud/PIM/gh-pages/images/tuev.png)
-
-<img src="images/tuev.png" alt=""> </div>
+<img src="images/tuev.png" alt="">
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-[[https://github.com/Mahm0ud/PIM/blob/gh-pages/images/tuev.png|alt=octocat]]
 ```markdown
 Syntax highlighted code block
 
@@ -26,7 +23,6 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 ```
-[[https://github.com/Mahm0ud/PIM/blob/gh-pages/images/tuev.png|alt=octocat]]
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
