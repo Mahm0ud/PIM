@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](https://github.com/Mahm0ud/PIM/blob/gh-pages/images/tuev.png)
+[Link](url) and ![Image](https://raw.githubusercontent.com/Mahm0ud/PIM/gh-pages/images/tuev.png)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
